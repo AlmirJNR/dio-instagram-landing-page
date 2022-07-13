@@ -1,0 +1,60 @@
+:root {
+    --blue: #0095F6;
+    --dark-blue: #385185;
+    --dark-grey: #8E8E8E;
+    --darker-blue: #00376b;
+    --grey: #dbdbdb;
+    --light-blue: #B2DFFC;
+    --light-grey: #fafafa;
+    --white: #ffffff;
+}
+
+.flex-row-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-row-center-space-evenly {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-column-align-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-column-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.flex-column-center-space-between {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-column-center-space-evenly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}

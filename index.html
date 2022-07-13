@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Almir Alves de Freitas Junior">
+    <meta name="description" content="Instagram landing page made for 'Geração Tech Unimed-BH | Fullstack' bootcamp">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="./styles/utils.css">
+    <link rel="stylesheet" href="./styles/mediaqueries.css">
+    <link rel="stylesheet" href="./styles/animations.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body class="flex-column-align-center">
+    <main class="flex-row-space-between">
+        <img id="cellphone" src="./assets/instagram_phone_variant.png" alt="Cellphone With Dynamic Background">
+
+        <div id="user-interaction-container" class="flex-column-space-between">
+            <div id="login-container" class="flex-column-center-space-between">
+                <img src="./assets/instagram_logo.png" alt="Instagram Logo">
+                <form action="login" method="post" class="flex-column-center">
+                    <input id="credentials-input" class="input-values" type="text" name="credentials" placeholder="Phone number, username, or email" required spellcheck="false">
+                    <input id="password-input" class="input-values" type="password" name="password" placeholder="Password" required minlength="6">
+                    <input class="input-button" type="submit" value="Log In">
+                </form>
+                <div class="flex-row-center">
+                    <hr><span id="OR"></span><hr>
+                </div>
+                <a id="facebook-login" class="flex-row-center" href="">
+                    <img id="facebook-logo" src="./assets/facebook_logo.png" alt="Facebook Logo">
+                    Log in with Facebook
+                </a>
+                <a id="forgot-password" href="">
+                    Forgot password?
+                </a>
+            </div>
+
+            <div id="sign-up-container">
+                <p>Don't have an account? <a id="sign-up-button" href="">Sign up</a></p>
+            </div>
+
+            <div class="flex-column-center">
+                <p>Get the app.</p>
+                <div>
+                    <a class="download-button" target="_blank" href="https://apps.apple.com/app/instagram/id389801252?vt=lo">
+                        <img class="download-badges" src="./assets/badges/appstore_install_badge.png" alt="AppStore Download Badge">
+                    </a>
+                    <a class="download-button" target="_blank" href="https://play.google.com/store/apps/details?id=com.instagram.android">
+                        <img class="download-badges" src="./assets/badges/playstore_install_badge.png" alt="PlayStore Download Badge">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="flex-column-center">
+        <section class="flex-row-center">
+            <a>Meta</a>
+            <a>About</a>
+            <a>Blog</a>
+            <a>Jobs</a>
+            <a>Help</a>
+            <a>API</a>
+            <a>Privacy</a>
+            <a>Terms</a>
+            <a>Top Accounts</a>
+            <a>Hashtags</a>
+            <a>Locations</a>
+            <a>Instagram Lite</a>
+            <a>Contact Uploading & Non-Users</a>
+        </section>
+
+        <section class="flex-row-center">
+            <a>Dance</a>
+            <a>Food & Drink</a>
+            <a>Home & Garden</a>
+            <a>Music</a>
+            <a>Visual Arts</a>
+        </section>
+
+        <section class="flex-row-center">
+            <select name="Languages" id="language-selector">
+                <option value="en">English</option>
+                <option value="pt-br">Português (Brasil)</option>
+            </select>
+            <span>&copy;2022 Instagram from Meta</span>
+        </section>
+    </footer>
+</body>
+
+</html>
